@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "t"
+		"sources": "https://github.com/Tetto-dk/more-ender-pearls-template-1.21.4"
 	},
 	"license": "MIT",
 	"icon": "assets/more-ender-pearls/icon.png",
