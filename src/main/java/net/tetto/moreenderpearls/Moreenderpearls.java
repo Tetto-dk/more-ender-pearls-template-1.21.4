@@ -1,7 +1,7 @@
 package net.tetto.moreenderpearls;
 
 import net.fabricmc.api.ModInitializer;
-
+import net.tetto.moreenderpearls.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +11,6 @@ public class Moreenderpearls implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
